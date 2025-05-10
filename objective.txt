@@ -1,0 +1,3 @@
+﻿best total returns not concerning about risk
+--best total returns while minimizing risk, giving equal importance to both return and risk
+--good total returns while minimizing risk, giving highest priority to minimization of risk

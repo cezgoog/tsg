@@ -6,10 +6,6 @@ namespace Grok
 {
     class Grok
     {
-        //private const string Objective = "best total returns not concerning about risk";
-        //private const string Objective = "best total returns while minimizing risk, giving equal importance to both return and risk";
-        private const string Objective = "good total returns while minimizing risk, giving highest priority to minimization of risk";
-
         public const string Model = "grok-3-fast-beta"; // "grok-3"
         public const double CostPerMillionPromptTokens = 5.0;
         public const double CostPerMillionCompletionTokens = 25.0;
@@ -26,11 +22,18 @@ namespace Grok
             string[] symbols = File.ReadLines("symbols.txt").Where(l => !String.IsNullOrWhiteSpace(l)).Select(s => s.Trim().ToUpperInvariant()).Distinct().ToArray();
             Console.WriteLine($"Loaded symbols: {string.Join(", ", symbols)}");
 
+            string objective = File.ReadLines("objective.txt").Where(l => !String.IsNullOrWhiteSpace(l) && Char.IsLetterOrDigit(l[0])).FirstOrDefault() ?? "";
+            if (String.IsNullOrWhiteSpace(objective))
+            {
+                Console.WriteLine("Missing objective. Check if there is a line that starts with a alphanumeric character in objective.txt file");
+                return;
+            }
+
             double cost = 0.0;
             Dictionary<string, string> matches = [];
             double[] wcounts = [.. symbols.Select(_ => 0.0)];
 
-            Console.WriteLine($"Objective: {Objective}");
+            Console.WriteLine($"Objective: {objective}");
             Console.WriteLine();
             Console.WriteLine("SYMB1 SYMB2  WINNER  WCOUNT  COST($)");
 
@@ -41,7 +44,7 @@ namespace Grok
                     string symbol1 = symbols[i];
                     string symbol2 = symbols[j];
 
-                    string instruction = instructionTemplate.Replace("OBJECTIVE", Objective);
+                    string instruction = instructionTemplate.Replace("OBJECTIVE", objective);
                     instruction = instruction.Replace("SYMBOL1", symbol1);
                     instruction = instruction.Replace("SYMBOL2", symbol2);
 
