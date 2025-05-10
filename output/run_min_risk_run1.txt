@@ -1,0 +1,910 @@
+Loaded symbols: AMZN, FLOT, FLRN, FLTR, FTLS, FTSL, GBIL, GLD, GOOG, GSY, IAK, IBIT, IONQ, ITA, IWM, IYW, JAAA, JEPI, JPST, MINT, MO, MSFT, NEAR, NVDA, PAXS, PLTR, QQQ, QTUM, SCHD, SHY, SHYG, SPY, STWD, TSLA, VIG, VNQ, VRIG, VCSH, VNQ, XDTE, XLP
+Objective: good total returns while minimizing risk, giving highest priority to minimization of risk
+
+SYMB1 SYMB2  WINNER  WCOUNT  COST($)
+ AMZN  FLOT    FLOT     1.0     0.00
+ AMZN  FLRN    FLRN     1.0     0.00
+ AMZN  FLTR    FLTR     1.0     0.01
+ AMZN  FTLS    FTLS     1.0     0.01
+ AMZN  FTSL    FTSL     1.0     0.01
+ AMZN  GBIL    GBIL     1.0     0.01
+ AMZN   GLD     GLD     1.0     0.01
+ AMZN  GOOG    AMZN     1.0     0.01
+ AMZN   GSY     GSY     1.0     0.02
+ AMZN   IAK     IAK     1.0     0.02
+ AMZN  IBIT    IBIT     1.0     0.02
+ AMZN  IONQ    AMZN     2.0     0.02
+ AMZN   ITA     ITA     1.0     0.02
+ AMZN   IWM     IWM     1.0     0.02
+ AMZN   IYW     IYW     1.0     0.03
+ AMZN  JAAA    JAAA     1.0     0.03
+ AMZN  JEPI    JEPI     1.0     0.03
+ AMZN  JPST    JPST     1.0     0.03
+ AMZN  MINT    MINT     1.0     0.03
+ AMZN    MO      MO     1.0     0.03
+ AMZN  MSFT    MSFT     1.0     0.04
+ AMZN  NEAR    AMZN     3.0     0.04
+ AMZN  NVDA    AMZN     4.0     0.04
+ AMZN  PAXS    PAXS     1.0     0.04
+ AMZN  PLTR    AMZN     5.0     0.04
+ AMZN   QQQ     QQQ     1.0     0.05
+ AMZN  QTUM    AMZN     6.0     0.05
+ AMZN  SCHD    SCHD     1.0     0.05
+ AMZN   SHY     SHY     1.0     0.05
+ AMZN  SHYG    SHYG     1.0     0.05
+ AMZN   SPY     SPY     1.0     0.05
+ AMZN  STWD    STWD     1.0     0.06
+ AMZN  TSLA    AMZN     7.0     0.06
+ AMZN   VIG     VIG     1.0     0.06
+ AMZN   VNQ     VNQ     1.0     0.06
+ AMZN  VRIG    VRIG     1.0     0.06
+ AMZN  VCSH    VCSH     1.0     0.06
+ AMZN   VNQ     VNQ     1.0     0.07
+ AMZN  XDTE    AMZN     8.0     0.07
+ AMZN   XLP     XLP     1.0     0.07
+ FLOT  FLRN    FLOT     2.0     0.07
+ FLOT  FLTR    FLOT     3.0     0.07
+ FLOT  FTLS    FLOT     4.0     0.08
+ FLOT  FTSL    FLOT     5.0     0.08
+ FLOT  GBIL    GBIL     2.0     0.08
+ FLOT   GLD    FLOT     6.0     0.08
+ FLOT  GOOG    FLOT     7.0     0.08
+ FLOT   GSY    FLOT     8.0     0.08
+ FLOT   IAK    FLOT     9.0     0.09
+ FLOT  IBIT    FLOT    10.0     0.09
+ FLOT  IONQ    FLOT    11.0     0.09
+ FLOT   ITA    FLOT    12.0     0.09
+ FLOT   IWM    FLOT    13.0     0.09
+ FLOT   IYW    FLOT    14.0     0.09
+ FLOT  JAAA    FLOT    15.0     0.10
+ FLOT  JEPI    FLOT    16.0     0.10
+ FLOT  JPST    FLOT    17.0     0.10
+ FLOT  MINT    FLOT    18.0     0.10
+ FLOT    MO    FLOT    19.0     0.10
+ FLOT  MSFT    FLOT    20.0     0.10
+ FLOT  NEAR    FLOT    21.0     0.11
+ FLOT  NVDA    FLOT    22.0     0.11
+ FLOT  PAXS    FLOT    23.0     0.11
+ FLOT  PLTR    FLOT    24.0     0.11
+ FLOT   QQQ    FLOT    25.0     0.11
+ FLOT  QTUM    FLOT    26.0     0.12
+ FLOT  SCHD    FLOT    27.0     0.12
+ FLOT   SHY     SHY     2.0     0.12
+ FLOT  SHYG    FLOT    28.0     0.12
+ FLOT   SPY    FLOT    29.0     0.12
+ FLOT  STWD    FLOT    30.0     0.12
+ FLOT  TSLA    FLOT    31.0     0.13
+ FLOT   VIG    FLOT    32.0     0.13
+ FLOT   VNQ    FLOT    33.0     0.13
+ FLOT  VRIG    FLOT    34.0     0.13
+ FLOT  VCSH    FLOT    35.0     0.13
+ FLOT   VNQ    FLOT    36.0     0.13
+ FLOT  XDTE    FLOT    37.0     0.14
+ FLOT   XLP    FLOT    38.0     0.14
+ FLRN  FLTR    FLRN     2.0     0.14
+ FLRN  FTLS    FLRN     3.0     0.14
+ FLRN  FTSL    FLRN     4.0     0.14
+ FLRN  GBIL    GBIL     3.0     0.15
+ FLRN   GLD    FLRN     5.0     0.15
+ FLRN  GOOG    FLRN     6.0     0.15
+ FLRN   GSY    FLRN     7.0     0.15
+ FLRN   IAK    FLRN     8.0     0.15
+ FLRN  IBIT    FLRN     9.0     0.15
+ FLRN  IONQ    FLRN    10.0     0.16
+ FLRN   ITA    FLRN    11.0     0.16
+ FLRN   IWM    FLRN    12.0     0.16
+ FLRN   IYW    FLRN    13.0     0.16
+ FLRN  JAAA    FLRN    14.0     0.16
+ FLRN  JEPI    FLRN    15.0     0.16
+ FLRN  JPST    FLRN    16.0     0.17
+ FLRN  MINT    FLRN    17.0     0.17
+ FLRN    MO    FLRN    18.0     0.17
+ FLRN  MSFT    FLRN    19.0     0.17
+ FLRN  NEAR    FLRN    20.0     0.17
+ FLRN  NVDA    FLRN    21.0     0.17
+ FLRN  PAXS    FLRN    22.0     0.18
+ FLRN  PLTR    FLRN    23.0     0.18
+ FLRN   QQQ    FLRN    24.0     0.18
+ FLRN  QTUM    FLRN    25.0     0.18
+ FLRN  SCHD    FLRN    26.0     0.18
+ FLRN   SHY     SHY     3.0     0.19
+ FLRN  SHYG    FLRN    27.0     0.19
+ FLRN   SPY    FLRN    28.0     0.19
+ FLRN  STWD    FLRN    29.0     0.19
+ FLRN  TSLA    FLRN    30.0     0.19
+ FLRN   VIG    FLRN    31.0     0.19
+ FLRN   VNQ    FLRN    32.0     0.20
+ FLRN  VRIG    FLRN    33.0     0.20
+ FLRN  VCSH    FLRN    34.0     0.20
+ FLRN   VNQ    FLRN    35.0     0.20
+ FLRN  XDTE    FLRN    36.0     0.20
+ FLRN   XLP    FLRN    37.0     0.20
+ FLTR  FTLS    FLTR     2.0     0.21
+ FLTR  FTSL    FLTR     3.0     0.21
+ FLTR  GBIL    GBIL     4.0     0.21
+ FLTR   GLD     GLD     2.0     0.21
+ FLTR  GOOG    GOOG     1.0     0.21
+ FLTR   GSY    FLTR     4.0     0.22
+ FLTR   IAK     IAK     2.0     0.22
+ FLTR  IBIT    FLTR     5.0     0.22
+ FLTR  IONQ    FLTR     6.0     0.22
+ FLTR   ITA    FLTR     7.0     0.22
+ FLTR   IWM     IWM     2.0     0.22
+ FLTR   IYW    FLTR     8.0     0.23
+ FLTR  JAAA    JAAA     2.0     0.23
+ FLTR  JEPI    JEPI     2.0     0.23
+ FLTR  JPST    JPST     2.0     0.23
+ FLTR  MINT    FLTR     9.0     0.23
+ FLTR    MO    FLTR    10.0     0.23
+ FLTR  MSFT    MSFT     2.0     0.24
+ FLTR  NEAR    NEAR     1.0     0.24
+ FLTR  NVDA    FLTR    11.0     0.24
+ FLTR  PAXS    FLTR    12.0     0.24
+ FLTR  PLTR    FLTR    13.0     0.24
+ FLTR   QQQ     QQQ     2.0     0.25
+ FLTR  QTUM    FLTR    14.0     0.25
+ FLTR  SCHD    SCHD     2.0     0.25
+ FLTR   SHY     SHY     4.0     0.25
+ FLTR  SHYG    SHYG     2.0     0.25
+ FLTR   SPY     SPY     2.0     0.25
+ FLTR  STWD    STWD     2.0     0.26
+ FLTR  TSLA    FLTR    15.0     0.26
+ FLTR   VIG     VIG     2.0     0.26
+ FLTR   VNQ     VNQ     2.0     0.26
+ FLTR  VRIG    VRIG     2.0     0.26
+ FLTR  VCSH    VCSH     2.0     0.26
+ FLTR   VNQ     VNQ     2.0     0.27
+ FLTR  XDTE    FLTR    16.0     0.27
+ FLTR   XLP     XLP     2.0     0.27
+ FTLS  FTSL    FTLS     2.0     0.27
+ FTLS  GBIL    GBIL     5.0     0.27
+ FTLS   GLD     GLD     3.0     0.27
+ FTLS  GOOG    FTLS     3.0     0.28
+ FTLS   GSY     GSY     2.0     0.28
+ FTLS   IAK    FTLS     4.0     0.28
+ FTLS  IBIT    FTLS     5.0     0.28
+ FTLS  IONQ    FTLS     6.0     0.28
+ FTLS   ITA    FTLS     7.0     0.29
+ FTLS   IWM    FTLS     8.0     0.29
+ FTLS   IYW    FTLS     9.0     0.29
+ FTLS  JAAA    JAAA     3.0     0.29
+ FTLS  JEPI    JEPI     3.0     0.29
+ FTLS  JPST    JPST     3.0     0.29
+ FTLS  MINT    MINT     2.0     0.30
+ FTLS    MO    FTLS    10.0     0.30
+ FTLS  MSFT    FTLS    11.0     0.30
+ FTLS  NEAR    NEAR     2.0     0.30
+ FTLS  NVDA    FTLS    12.0     0.30
+ FTLS  PAXS    FTLS    13.0     0.30
+ FTLS  PLTR    FTLS    14.0     0.31
+ FTLS   QQQ    FTLS    15.0     0.31
+ FTLS  QTUM    FTLS    16.0     0.31
+ FTLS  SCHD    SCHD     3.0     0.31
+ FTLS   SHY     SHY     5.0     0.31
+ FTLS  SHYG    SHYG     3.0     0.31
+ FTLS   SPY    FTLS    17.0     0.32
+ FTLS  STWD    FTLS    18.0     0.32
+ FTLS  TSLA    FTLS    19.0     0.32
+ FTLS   VIG     VIG     3.0     0.32
+ FTLS   VNQ    FTLS    20.0     0.32
+ FTLS  VRIG    VRIG     3.0     0.33
+ FTLS  VCSH    VCSH     3.0     0.33
+ FTLS   VNQ    FTLS    21.0     0.33
+ FTLS  XDTE    FTLS    22.0     0.33
+ FTLS   XLP     XLP     3.0     0.33
+ FTSL  GBIL    GBIL     6.0     0.33
+ FTSL   GLD     GLD     4.0     0.34
+ FTSL  GOOG    FTSL     2.0     0.34
+ FTSL   GSY     GSY     3.0     0.34
+ FTSL   IAK    FTSL     3.0     0.34
+ FTSL  IBIT    FTSL     4.0     0.34
+ FTSL  IONQ    FTSL     5.0     0.34
+ FTSL   ITA    FTSL     6.0     0.35
+ FTSL   IWM    FTSL     7.0     0.35
+ FTSL   IYW    FTSL     8.0     0.35
+ FTSL  JAAA    JAAA     4.0     0.35
+ FTSL  JEPI    JEPI     4.0     0.35
+ FTSL  JPST    JPST     4.0     0.36
+ FTSL  MINT    MINT     3.0     0.36
+ FTSL    MO    FTSL     9.0     0.36
+ FTSL  MSFT    MSFT     3.0     0.36
+ FTSL  NEAR    NEAR     3.0     0.36
+ FTSL  NVDA    FTSL    10.0     0.36
+ FTSL  PAXS    FTSL    11.0     0.37
+ FTSL  PLTR    FTSL    12.0     0.37
+ FTSL   QQQ    FTSL    13.0     0.37
+ FTSL  QTUM    FTSL    14.0     0.37
+ FTSL  SCHD    SCHD     4.0     0.37
+ FTSL   SHY     SHY     6.0     0.37
+ FTSL  SHYG    SHYG     4.0     0.38
+ FTSL   SPY     SPY     3.0     0.38
+ FTSL  STWD    FTSL    15.0     0.38
+ FTSL  TSLA    FTSL    16.0     0.38
+ FTSL   VIG     VIG     4.0     0.38
+ FTSL   VNQ     VNQ     3.0     0.39
+ FTSL  VRIG    VRIG     4.0     0.39
+ FTSL  VCSH    VCSH     4.0     0.39
+ FTSL   VNQ     VNQ     3.0     0.39
+ FTSL  XDTE    FTSL    17.0     0.39
+ FTSL   XLP     XLP     4.0     0.39
+ GBIL   GLD    GBIL     7.0     0.40
+ GBIL  GOOG    GBIL     8.0     0.40
+ GBIL   GSY    GBIL     9.0     0.40
+ GBIL   IAK    GBIL    10.0     0.40
+ GBIL  IBIT    GBIL    11.0     0.40
+ GBIL  IONQ    GBIL    12.0     0.40
+ GBIL   ITA    GBIL    13.0     0.41
+ GBIL   IWM    GBIL    14.0     0.41
+ GBIL   IYW    GBIL    15.0     0.41
+ GBIL  JAAA    GBIL    16.0     0.41
+ GBIL  JEPI    GBIL    17.0     0.41
+ GBIL  JPST    GBIL    18.0     0.42
+ GBIL  MINT    GBIL    19.0     0.42
+ GBIL    MO    GBIL    20.0     0.42
+ GBIL  MSFT    GBIL    21.0     0.42
+ GBIL  NEAR    GBIL    22.0     0.42
+ GBIL  NVDA    GBIL    23.0     0.42
+ GBIL  PAXS    GBIL    24.0     0.43
+ GBIL  PLTR    GBIL    25.0     0.43
+ GBIL   QQQ    GBIL    26.0     0.43
+ GBIL  QTUM    GBIL    27.0     0.43
+ GBIL  SCHD    GBIL    28.0     0.43
+ GBIL   SHY    GBIL    29.0     0.43
+ GBIL  SHYG    GBIL    30.0     0.44
+ GBIL   SPY    GBIL    31.0     0.44
+ GBIL  STWD    GBIL    32.0     0.44
+ GBIL  TSLA    GBIL    33.0     0.44
+ GBIL   VIG    GBIL    34.0     0.44
+ GBIL   VNQ    GBIL    35.0     0.45
+ GBIL  VRIG    GBIL    36.0     0.45
+ GBIL  VCSH    GBIL    37.0     0.45
+ GBIL   VNQ    GBIL    38.0     0.45
+ GBIL  XDTE    GBIL    39.0     0.45
+ GBIL   XLP    GBIL    40.0     0.45
+  GLD  GOOG     GLD     5.0     0.46
+  GLD   GSY     GSY     4.0     0.46
+  GLD   IAK     GLD     6.0     0.46
+  GLD  IBIT     GLD     7.0     0.46
+  GLD  IONQ     GLD     8.0     0.46
+  GLD   ITA     GLD     9.0     0.46
+  GLD   IWM     GLD    10.0     0.47
+  GLD   IYW     GLD    11.0     0.47
+  GLD  JAAA    JAAA     5.0     0.47
+  GLD  JEPI    JEPI     5.0     0.47
+  GLD  JPST    JPST     5.0     0.47
+  GLD  MINT    MINT     4.0     0.47
+  GLD    MO     GLD    12.0     0.48
+  GLD  MSFT     GLD    13.0     0.48
+  GLD  NEAR    NEAR     4.0     0.48
+  GLD  NVDA     GLD    14.0     0.48
+  GLD  PAXS     GLD    15.0     0.48
+  GLD  PLTR     GLD    16.0     0.49
+  GLD   QQQ     GLD    17.0     0.49
+  GLD  QTUM     GLD    18.0     0.49
+  GLD  SCHD    SCHD     5.0     0.49
+  GLD   SHY     SHY     7.0     0.49
+  GLD  SHYG    SHYG     5.0     0.49
+  GLD   SPY     GLD    19.0     0.50
+  GLD  STWD    STWD     3.0     0.50
+  GLD  TSLA     GLD    20.0     0.50
+  GLD   VIG     VIG     5.0     0.50
+  GLD   VNQ     VNQ     4.0     0.50
+  GLD  VRIG    VRIG     5.0     0.50
+  GLD  VCSH    VCSH     5.0     0.51
+  GLD   VNQ     VNQ     4.0     0.51
+  GLD  XDTE     GLD    21.0     0.51
+  GLD   XLP     XLP     5.0     0.51
+ GOOG   GSY     GSY     5.0     0.51
+ GOOG   IAK     IAK     3.0     0.52
+ GOOG  IBIT    IBIT     2.0     0.52
+ GOOG  IONQ    GOOG     2.0     0.52
+ GOOG   ITA     ITA     2.0     0.52
+ GOOG   IWM     IWM     3.0     0.52
+ GOOG   IYW     IYW     2.0     0.52
+ GOOG  JAAA    JAAA     6.0     0.53
+ GOOG  JEPI    JEPI     6.0     0.53
+ GOOG  JPST    JPST     6.0     0.53
+ GOOG  MINT    MINT     5.0     0.53
+ GOOG    MO      MO     2.0     0.53
+ GOOG  MSFT    MSFT     4.0     0.53
+ GOOG  NEAR    GOOG     3.0     0.54
+ GOOG  NVDA    GOOG     4.0     0.54
+ GOOG  PAXS    PAXS     2.0     0.54
+ GOOG  PLTR    GOOG     5.0     0.54
+ GOOG   QQQ     QQQ     3.0     0.54
+ GOOG  QTUM    GOOG     6.0     0.54
+ GOOG  SCHD    SCHD     6.0     0.55
+ GOOG   SHY     SHY     8.0     0.55
+ GOOG  SHYG    SHYG     6.0     0.55
+ GOOG   SPY     SPY     4.0     0.55
+ GOOG  STWD    STWD     4.0     0.55
+ GOOG  TSLA    GOOG     7.0     0.56
+ GOOG   VIG     VIG     6.0     0.56
+ GOOG   VNQ     VNQ     5.0     0.56
+ GOOG  VRIG    VRIG     6.0     0.56
+ GOOG  VCSH    VCSH     6.0     0.56
+ GOOG   VNQ     VNQ     5.0     0.56
+ GOOG  XDTE    GOOG     8.0     0.57
+ GOOG   XLP     XLP     6.0     0.57
+  GSY   IAK     GSY     6.0     0.57
+  GSY  IBIT     GSY     7.0     0.57
+  GSY  IONQ     GSY     8.0     0.57
+  GSY   ITA     GSY     9.0     0.57
+  GSY   IWM     GSY    10.0     0.58
+  GSY   IYW     GSY    11.0     0.58
+  GSY  JAAA    JAAA     7.0     0.58
+  GSY  JEPI    JEPI     7.0     0.58
+  GSY  JPST    JPST     7.0     0.58
+  GSY  MINT     GSY    12.0     0.59
+  GSY    MO     GSY    13.0     0.59
+  GSY  MSFT    MSFT     5.0     0.59
+  GSY  NEAR    NEAR     5.0     0.59
+  GSY  NVDA     GSY    14.0     0.59
+  GSY  PAXS     GSY    15.0     0.59
+  GSY  PLTR     GSY    16.0     0.60
+  GSY   QQQ     GSY    17.0     0.60
+  GSY  QTUM     GSY    18.0     0.60
+  GSY  SCHD    SCHD     7.0     0.60
+  GSY   SHY     SHY     9.0     0.60
+  GSY  SHYG     GSY    19.0     0.60
+  GSY   SPY     SPY     5.0     0.61
+  GSY  STWD     GSY    20.0     0.61
+  GSY  TSLA     GSY    21.0     0.61
+  GSY   VIG     GSY    22.0     0.61
+  GSY   VNQ     VNQ     6.0     0.61
+  GSY  VRIG    VRIG     7.0     0.61
+  GSY  VCSH    VCSH     7.0     0.62
+  GSY   VNQ     VNQ     6.0     0.62
+  GSY  XDTE     GSY    23.0     0.62
+  GSY   XLP     XLP     7.0     0.62
+  IAK  IBIT     IAK     4.0     0.62
+  IAK  IONQ     IAK     5.0     0.63
+  IAK   ITA     IAK     6.0     0.63
+  IAK   IWM     IAK     7.0     0.63
+  IAK   IYW     IAK     8.0     0.63
+  IAK  JAAA    JAAA     8.0     0.63
+  IAK  JEPI    JEPI     8.0     0.63
+  IAK  JPST    JPST     8.0     0.64
+  IAK  MINT    MINT     6.0     0.64
+  IAK    MO     IAK     9.0     0.64
+  IAK  MSFT    MSFT     6.0     0.64
+  IAK  NEAR    NEAR     6.0     0.64
+  IAK  NVDA     IAK    10.0     0.64
+  IAK  PAXS     IAK    11.0     0.65
+  IAK  PLTR     IAK    12.0     0.65
+  IAK   QQQ     IAK    13.0     0.65
+  IAK  QTUM     IAK    14.0     0.65
+  IAK  SCHD    SCHD     8.0     0.65
+  IAK   SHY     SHY    10.0     0.66
+  IAK  SHYG    SHYG     7.0     0.66
+  IAK   SPY     SPY     6.0     0.66
+  IAK  STWD     IAK    15.0     0.66
+  IAK  TSLA     IAK    16.0     0.66
+  IAK   VIG     VIG     7.0     0.66
+  IAK   VNQ     VNQ     7.0     0.67
+  IAK  VRIG    VRIG     8.0     0.67
+  IAK  VCSH    VCSH     8.0     0.67
+  IAK   VNQ     VNQ     7.0     0.67
+  IAK  XDTE    XDTE     1.0     0.67
+  IAK   XLP     XLP     8.0     0.67
+ IBIT  IONQ    IBIT     3.0     0.68
+ IBIT   ITA     ITA     3.0     0.68
+ IBIT   IWM     IWM     4.0     0.68
+ IBIT   IYW    IBIT     4.0     0.68
+ IBIT  JAAA    JAAA     9.0     0.68
+ IBIT  JEPI    JEPI     9.0     0.68
+ IBIT  JPST    JPST     9.0     0.69
+ IBIT  MINT    MINT     7.0     0.69
+ IBIT    MO      MO     3.0     0.69
+ IBIT  MSFT    MSFT     7.0     0.69
+ IBIT  NEAR    IBIT     5.0     0.69
+ IBIT  NVDA    NVDA     1.0     0.70
+ IBIT  PAXS    PAXS     3.0     0.70
+ IBIT  PLTR    IBIT     6.0     0.70
+ IBIT   QQQ     QQQ     4.0     0.70
+ IBIT  QTUM    IBIT     7.0     0.70
+ IBIT  SCHD    SCHD     9.0     0.70
+ IBIT   SHY     SHY    11.0     0.71
+ IBIT  SHYG    SHYG     8.0     0.71
+ IBIT   SPY     SPY     7.0     0.71
+ IBIT  STWD    STWD     5.0     0.71
+ IBIT  TSLA    IBIT     8.0     0.71
+ IBIT   VIG     VIG     8.0     0.71
+ IBIT   VNQ     VNQ     8.0     0.72
+ IBIT  VRIG    VRIG     9.0     0.72
+ IBIT  VCSH    VCSH     9.0     0.72
+ IBIT   VNQ     VNQ     8.0     0.72
+ IBIT  XDTE    XDTE     2.0     0.72
+ IBIT   XLP     XLP     9.0     0.73
+ IONQ   ITA     ITA     4.0     0.73
+ IONQ   IWM     IWM     5.0     0.73
+ IONQ   IYW     IYW     3.0     0.73
+ IONQ  JAAA    JAAA    10.0     0.73
+ IONQ  JEPI    JEPI    10.0     0.73
+ IONQ  JPST    JPST    10.0     0.74
+ IONQ  MINT    MINT     8.0     0.74
+ IONQ    MO      MO     4.0     0.74
+ IONQ  MSFT    MSFT     8.0     0.74
+ IONQ  NEAR    NEAR     7.0     0.74
+ IONQ  NVDA    NVDA     2.0     0.74
+ IONQ  PAXS    PAXS     4.0     0.75
+ IONQ  PLTR    PLTR     1.0     0.75
+ IONQ   QQQ     QQQ     5.0     0.75
+ IONQ  QTUM    QTUM     1.0     0.75
+ IONQ  SCHD    SCHD    10.0     0.75
+ IONQ   SHY     SHY    12.0     0.75
+ IONQ  SHYG    SHYG     9.0     0.76
+ IONQ   SPY     SPY     8.0     0.76
+ IONQ  STWD    STWD     6.0     0.76
+ IONQ  TSLA    IONQ     1.0     0.76
+ IONQ   VIG     VIG     9.0     0.76
+ IONQ   VNQ     VNQ     9.0     0.77
+ IONQ  VRIG    VRIG    10.0     0.77
+ IONQ  VCSH    VCSH    10.0     0.77
+ IONQ   VNQ     VNQ     9.0     0.77
+ IONQ  XDTE    XDTE     3.0     0.77
+ IONQ   XLP     XLP    10.0     0.77
+  ITA   IWM     ITA     5.0     0.78
+  ITA   IYW     ITA     6.0     0.78
+  ITA  JAAA    JAAA    11.0     0.78
+  ITA  JEPI    JEPI    11.0     0.78
+  ITA  JPST    JPST    11.0     0.78
+  ITA  MINT    MINT     9.0     0.78
+  ITA    MO     ITA     7.0     0.79
+  ITA  MSFT    MSFT     9.0     0.79
+  ITA  NEAR    NEAR     8.0     0.79
+  ITA  NVDA     ITA     8.0     0.79
+  ITA  PAXS    PAXS     5.0     0.79
+  ITA  PLTR     ITA     9.0     0.79
+  ITA   QQQ     ITA    10.0     0.80
+  ITA  QTUM     ITA    11.0     0.80
+  ITA  SCHD    SCHD    11.0     0.80
+  ITA   SHY     SHY    13.0     0.80
+  ITA  SHYG    SHYG    10.0     0.80
+  ITA   SPY     SPY     9.0     0.81
+  ITA  STWD    STWD     7.0     0.81
+  ITA  TSLA     ITA    12.0     0.81
+  ITA   VIG     VIG    10.0     0.81
+  ITA   VNQ     VNQ    10.0     0.81
+  ITA  VRIG    VRIG    11.0     0.81
+  ITA  VCSH    VCSH    11.0     0.82
+  ITA   VNQ     VNQ    10.0     0.82
+  ITA  XDTE    XDTE     4.0     0.82
+  ITA   XLP     XLP    11.0     0.82
+  IWM   IYW     IWM     6.0     0.82
+  IWM  JAAA    JAAA    12.0     0.82
+  IWM  JEPI    JEPI    12.0     0.83
+  IWM  JPST    JPST    12.0     0.83
+  IWM  MINT    MINT    10.0     0.83
+  IWM    MO      MO     5.0     0.83
+  IWM  MSFT    MSFT    10.0     0.83
+  IWM  NEAR    NEAR     9.0     0.83
+  IWM  NVDA     IWM     7.0     0.84
+  IWM  PAXS    PAXS     6.0     0.84
+  IWM  PLTR     IWM     8.0     0.84
+  IWM   QQQ     IWM     9.0     0.84
+  IWM  QTUM     IWM    10.0     0.84
+  IWM  SCHD    SCHD    12.0     0.85
+  IWM   SHY     SHY    14.0     0.85
+  IWM  SHYG    SHYG    11.0     0.85
+  IWM   SPY     SPY    10.0     0.85
+  IWM  STWD    STWD     8.0     0.85
+  IWM  TSLA     IWM    11.0     0.85
+  IWM   VIG     VIG    11.0     0.86
+  IWM   VNQ     VNQ    11.0     0.86
+  IWM  VRIG    VRIG    12.0     0.86
+  IWM  VCSH    VCSH    12.0     0.86
+  IWM   VNQ     VNQ    11.0     0.86
+  IWM  XDTE    XDTE     5.0     0.86
+  IWM   XLP     XLP    12.0     0.87
+  IYW  JAAA    JAAA    13.0     0.87
+  IYW  JEPI    JEPI    13.0     0.87
+  IYW  JPST    JPST    13.0     0.87
+  IYW  MINT    MINT    11.0     0.87
+  IYW    MO     IYW     4.0     0.88
+  IYW  MSFT    MSFT    11.0     0.88
+  IYW  NEAR    NEAR    10.0     0.88
+  IYW  NVDA     IYW     5.0     0.88
+  IYW  PAXS     IYW     6.0     0.88
+  IYW  PLTR     IYW     7.0     0.88
+  IYW   QQQ     IYW     8.0     0.89
+  IYW  QTUM     IYW     9.0     0.89
+  IYW  SCHD    SCHD    13.0     0.89
+  IYW   SHY     SHY    15.0     0.89
+  IYW  SHYG    SHYG    12.0     0.89
+  IYW   SPY     SPY    11.0     0.89
+  IYW  STWD    STWD     9.0     0.90
+  IYW  TSLA     IYW    10.0     0.90
+  IYW   VIG     VIG    12.0     0.90
+  IYW   VNQ     VNQ    12.0     0.90
+  IYW  VRIG    VRIG    13.0     0.90
+  IYW  VCSH    VCSH    13.0     0.90
+  IYW   VNQ     VNQ    12.0     0.91
+  IYW  XDTE    XDTE     6.0     0.91
+  IYW   XLP     XLP    13.0     0.91
+ JAAA  JEPI    JAAA    14.0     0.91
+ JAAA  JPST    JAAA    15.0     0.91
+ JAAA  MINT    JAAA    16.0     0.92
+ JAAA    MO    JAAA    17.0     0.92
+ JAAA  MSFT    JAAA    18.0     0.92
+ JAAA  NEAR    JAAA    19.0     0.92
+ JAAA  NVDA    JAAA    20.0     0.92
+ JAAA  PAXS    JAAA    21.0     0.92
+ JAAA  PLTR    JAAA    22.0     0.93
+ JAAA   QQQ    JAAA    23.0     0.93
+ JAAA  QTUM    JAAA    24.0     0.93
+ JAAA  SCHD    JAAA    25.0     0.93
+ JAAA   SHY     SHY    16.0     0.93
+ JAAA  SHYG    JAAA    26.0     0.93
+ JAAA   SPY    JAAA    27.0     0.94
+ JAAA  STWD    JAAA    28.0     0.94
+ JAAA  TSLA    JAAA    29.0     0.94
+ JAAA   VIG    JAAA    30.0     0.94
+ JAAA   VNQ    JAAA    31.0     0.94
+ JAAA  VRIG    JAAA    32.0     0.95
+ JAAA  VCSH    JAAA    33.0     0.95
+ JAAA   VNQ    JAAA    34.0     0.95
+ JAAA  XDTE    JAAA    35.0     0.95
+ JAAA   XLP    JAAA    36.0     0.95
+ JEPI  JPST    JPST    14.0     0.95
+ JEPI  MINT    MINT    12.0     0.96
+ JEPI    MO    JEPI    14.0     0.96
+ JEPI  MSFT    JEPI    15.0     0.96
+ JEPI  NEAR    NEAR    11.0     0.96
+ JEPI  NVDA    JEPI    16.0     0.96
+ JEPI  PAXS    JEPI    17.0     0.96
+ JEPI  PLTR    JEPI    18.0     0.97
+ JEPI   QQQ    JEPI    19.0     0.97
+ JEPI  QTUM    JEPI    20.0     0.97
+ JEPI  SCHD    SCHD    14.0     0.97
+ JEPI   SHY     SHY    17.0     0.97
+ JEPI  SHYG    JEPI    21.0     0.97
+ JEPI   SPY    JEPI    22.0     0.98
+ JEPI  STWD    JEPI    23.0     0.98
+ JEPI  TSLA    JEPI    24.0     0.98
+ JEPI   VIG    JEPI    25.0     0.98
+ JEPI   VNQ    JEPI    26.0     0.98
+ JEPI  VRIG    VRIG    14.0     0.99
+ JEPI  VCSH    VCSH    14.0     0.99
+ JEPI   VNQ    JEPI    27.0     0.99
+ JEPI  XDTE    JEPI    28.0     0.99
+ JEPI   XLP    JEPI    29.0     0.99
+ JPST  MINT    JPST    15.0     0.99
+ JPST    MO    JPST    16.0     1.00
+ JPST  MSFT    JPST    17.0     1.00
+ JPST  NEAR    JPST    18.0     1.00
+ JPST  NVDA    JPST    19.0     1.00
+ JPST  PAXS    JPST    20.0     1.00
+ JPST  PLTR    JPST    21.0     1.00
+ JPST   QQQ    JPST    22.0     1.01
+ JPST  QTUM    JPST    23.0     1.01
+ JPST  SCHD    JPST    24.0     1.01
+ JPST   SHY    JPST    25.0     1.01
+ JPST  SHYG    JPST    26.0     1.01
+ JPST   SPY    JPST    27.0     1.02
+ JPST  STWD    JPST    28.0     1.02
+ JPST  TSLA    JPST    29.0     1.02
+ JPST   VIG    JPST    30.0     1.02
+ JPST   VNQ    JPST    31.0     1.02
+ JPST  VRIG    JPST    32.0     1.02
+ JPST  VCSH    JPST    33.0     1.03
+ JPST   VNQ    JPST    34.0     1.03
+ JPST  XDTE    JPST    35.0     1.03
+ JPST   XLP    JPST    36.0     1.03
+ MINT    MO    MINT    13.0     1.03
+ MINT  MSFT    MSFT    12.0     1.03
+ MINT  NEAR    NEAR    12.0     1.04
+ MINT  NVDA    MINT    14.0     1.04
+ MINT  PAXS    MINT    15.0     1.04
+ MINT  PLTR    MINT    16.0     1.04
+ MINT   QQQ    MINT    17.0     1.04
+ MINT  QTUM    MINT    18.0     1.04
+ MINT  SCHD    SCHD    15.0     1.05
+ MINT   SHY     SHY    18.0     1.05
+ MINT  SHYG    MINT    19.0     1.05
+ MINT   SPY    MINT    20.0     1.05
+ MINT  STWD    MINT    21.0     1.05
+ MINT  TSLA    MINT    22.0     1.06
+ MINT   VIG    MINT    23.0     1.06
+ MINT   VNQ    MINT    24.0     1.06
+ MINT  VRIG    MINT    25.0     1.06
+ MINT  VCSH    VCSH    15.0     1.06
+ MINT   VNQ    MINT    26.0     1.06
+ MINT  XDTE    MINT    27.0     1.07
+ MINT   XLP     XLP    14.0     1.07
+   MO  MSFT      MO     6.0     1.07
+   MO  NEAR    NEAR    13.0     1.07
+   MO  NVDA      MO     7.0     1.07
+   MO  PAXS    PAXS     7.0     1.07
+   MO  PLTR      MO     8.0     1.08
+   MO   QQQ     QQQ     6.0     1.08
+   MO  QTUM      MO     9.0     1.08
+   MO  SCHD    SCHD    16.0     1.08
+   MO   SHY     SHY    19.0     1.08
+   MO  SHYG    SHYG    13.0     1.09
+   MO   SPY     SPY    12.0     1.09
+   MO  STWD    STWD    10.0     1.09
+   MO  TSLA      MO    10.0     1.09
+   MO   VIG     VIG    13.0     1.09
+   MO   VNQ     VNQ    13.0     1.09
+   MO  VRIG    VRIG    15.0     1.10
+   MO  VCSH    VCSH    16.0     1.10
+   MO   VNQ     VNQ    13.0     1.10
+   MO  XDTE      MO    11.0     1.10
+   MO   XLP     XLP    15.0     1.10
+ MSFT  NEAR    MSFT    13.0     1.10
+ MSFT  NVDA    MSFT    14.0     1.11
+ MSFT  PAXS    MSFT    15.0     1.11
+ MSFT  PLTR    MSFT    16.0     1.11
+ MSFT   QQQ    MSFT    17.0     1.11
+ MSFT  QTUM    MSFT    18.0     1.11
+ MSFT  SCHD    SCHD    17.0     1.11
+ MSFT   SHY     SHY    20.0     1.12
+ MSFT  SHYG    SHYG    14.0     1.12
+ MSFT   SPY     SPY    13.0     1.12
+ MSFT  STWD    STWD    11.0     1.12
+ MSFT  TSLA    MSFT    19.0     1.12
+ MSFT   VIG     VIG    14.0     1.13
+ MSFT   VNQ     VNQ    14.0     1.13
+ MSFT  VRIG    VRIG    16.0     1.13
+ MSFT  VCSH    VCSH    17.0     1.13
+ MSFT   VNQ     VNQ    14.0     1.13
+ MSFT  XDTE    MSFT    20.0     1.13
+ MSFT   XLP     XLP    16.0     1.14
+ NEAR  NVDA    NEAR    14.0     1.14
+ NEAR  PAXS    NEAR    15.0     1.14
+ NEAR  PLTR    NEAR    16.0     1.14
+ NEAR   QQQ    NEAR    17.0     1.14
+ NEAR  QTUM    NEAR    18.0     1.14
+ NEAR  SCHD    SCHD    18.0     1.15
+ NEAR   SHY    NEAR    19.0     1.15
+ NEAR  SHYG    NEAR    20.0     1.15
+ NEAR   SPY    NEAR    21.0     1.15
+ NEAR  STWD    NEAR    22.0     1.15
+ NEAR  TSLA    NEAR    23.0     1.15
+ NEAR   VIG    NEAR    24.0     1.16
+ NEAR   VNQ    NEAR    25.0     1.16
+ NEAR  VRIG    NEAR    26.0     1.16
+ NEAR  VCSH    NEAR    27.0     1.16
+ NEAR   VNQ    NEAR    28.0     1.16
+ NEAR  XDTE    NEAR    29.0     1.17
+ NEAR   XLP    NEAR    30.0     1.17
+ NVDA  PAXS    PAXS     8.0     1.17
+ NVDA  PLTR    NVDA     3.0     1.17
+ NVDA   QQQ     QQQ     7.0     1.17
+ NVDA  QTUM    QTUM     2.0     1.17
+ NVDA  SCHD    SCHD    19.0     1.18
+ NVDA   SHY     SHY    21.0     1.18
+ NVDA  SHYG    SHYG    15.0     1.18
+ NVDA   SPY     SPY    14.0     1.18
+ NVDA  STWD    STWD    12.0     1.18
+ NVDA  TSLA    NVDA     4.0     1.18
+ NVDA   VIG     VIG    15.0     1.19
+ NVDA   VNQ     VNQ    15.0     1.19
+ NVDA  VRIG    VRIG    17.0     1.19
+ NVDA  VCSH    VCSH    18.0     1.19
+ NVDA   VNQ     VNQ    15.0     1.19
+ NVDA  XDTE    XDTE     7.0     1.20
+ NVDA   XLP     XLP    17.0     1.20
+ PAXS  PLTR    PAXS     9.0     1.20
+ PAXS   QQQ     QQQ     8.0     1.20
+ PAXS  QTUM    PAXS    10.0     1.20
+ PAXS  SCHD    SCHD    20.0     1.20
+ PAXS   SHY     SHY    22.0     1.21
+ PAXS  SHYG    SHYG    16.0     1.21
+ PAXS   SPY     SPY    15.0     1.21
+ PAXS  STWD    STWD    13.0     1.21
+ PAXS  TSLA    PAXS    11.0     1.21
+ PAXS   VIG     VIG    16.0     1.21
+ PAXS   VNQ     VNQ    16.0     1.22
+ PAXS  VRIG    VRIG    18.0     1.22
+ PAXS  VCSH    VCSH    19.0     1.22
+ PAXS   VNQ     VNQ    16.0     1.22
+ PAXS  XDTE    XDTE     8.0     1.22
+ PAXS   XLP     XLP    18.0     1.23
+ PLTR   QQQ     QQQ     9.0     1.23
+ PLTR  QTUM    PLTR     2.0     1.23
+ PLTR  SCHD    SCHD    21.0     1.23
+ PLTR   SHY     SHY    23.0     1.23
+ PLTR  SHYG    SHYG    17.0     1.23
+ PLTR   SPY     SPY    16.0     1.24
+ PLTR  STWD    STWD    14.0     1.24
+ PLTR  TSLA    PLTR     3.0     1.24
+ PLTR   VIG     VIG    17.0     1.24
+ PLTR   VNQ     VNQ    17.0     1.24
+ PLTR  VRIG    VRIG    19.0     1.24
+ PLTR  VCSH    VCSH    20.0     1.25
+ PLTR   VNQ     VNQ    17.0     1.25
+ PLTR  XDTE    XDTE     9.0     1.25
+ PLTR   XLP     XLP    19.0     1.25
+  QQQ  QTUM     QQQ    10.0     1.25
+  QQQ  SCHD    SCHD    22.0     1.25
+  QQQ   SHY     SHY    24.0     1.26
+  QQQ  SHYG    SHYG    18.0     1.26
+  QQQ   SPY     SPY    17.0     1.26
+  QQQ  STWD    STWD    15.0     1.26
+  QQQ  TSLA     QQQ    11.0     1.26
+  QQQ   VIG     VIG    18.0     1.27
+  QQQ   VNQ     VNQ    18.0     1.27
+  QQQ  VRIG    VRIG    20.0     1.27
+  QQQ  VCSH    VCSH    21.0     1.27
+  QQQ   VNQ     VNQ    18.0     1.27
+  QQQ  XDTE    XDTE    10.0     1.27
+  QQQ   XLP     XLP    20.0     1.28
+ QTUM  SCHD    SCHD    23.0     1.28
+ QTUM   SHY     SHY    25.0     1.28
+ QTUM  SHYG    SHYG    19.0     1.28
+ QTUM   SPY     SPY    18.0     1.28
+ QTUM  STWD    STWD    16.0     1.28
+ QTUM  TSLA    QTUM     3.0     1.29
+ QTUM   VIG     VIG    19.0     1.29
+ QTUM   VNQ     VNQ    19.0     1.29
+ QTUM  VRIG    VRIG    21.0     1.29
+ QTUM  VCSH    VCSH    22.0     1.29
+ QTUM   VNQ     VNQ    19.0     1.30
+ QTUM  XDTE    XDTE    11.0     1.30
+ QTUM   XLP     XLP    21.0     1.30
+ SCHD   SHY     SHY    26.0     1.30
+ SCHD  SHYG    SCHD    24.0     1.30
+ SCHD   SPY    SCHD    25.0     1.30
+ SCHD  STWD    SCHD    26.0     1.31
+ SCHD  TSLA    SCHD    27.0     1.31
+ SCHD   VIG    SCHD    28.0     1.31
+ SCHD   VNQ    SCHD    29.0     1.31
+ SCHD  VRIG    VRIG    22.0     1.31
+ SCHD  VCSH    VCSH    23.0     1.31
+ SCHD   VNQ    SCHD    30.0     1.32
+ SCHD  XDTE    SCHD    31.0     1.32
+ SCHD   XLP    SCHD    32.0     1.32
+  SHY  SHYG     SHY    27.0     1.32
+  SHY   SPY     SHY    28.0     1.32
+  SHY  STWD     SHY    29.0     1.32
+  SHY  TSLA     SHY    30.0     1.33
+  SHY   VIG     SHY    31.0     1.33
+  SHY   VNQ     SHY    32.0     1.33
+  SHY  VRIG     SHY    33.0     1.33
+  SHY  VCSH     SHY    34.0     1.33
+  SHY   VNQ     SHY    35.0     1.34
+  SHY  XDTE     SHY    36.0     1.34
+  SHY   XLP     SHY    37.0     1.34
+ SHYG   SPY    SHYG    20.0     1.34
+ SHYG  STWD    SHYG    21.0     1.34
+ SHYG  TSLA    SHYG    22.0     1.34
+ SHYG   VIG     VIG    20.0     1.35
+ SHYG   VNQ    SHYG    23.0     1.35
+ SHYG  VRIG    VRIG    23.0     1.35
+ SHYG  VCSH    VCSH    24.0     1.35
+ SHYG   VNQ    SHYG    24.0     1.35
+ SHYG  XDTE    SHYG    25.0     1.35
+ SHYG   XLP     XLP    22.0     1.36
+  SPY  STWD     SPY    19.0     1.36
+  SPY  TSLA     SPY    20.0     1.36
+  SPY   VIG     VIG    21.0     1.36
+  SPY   VNQ     VNQ    20.0     1.36
+  SPY  VRIG    VRIG    24.0     1.37
+  SPY  VCSH    VCSH    25.0     1.37
+  SPY   VNQ     VNQ    20.0     1.37
+  SPY  XDTE     SPY    21.0     1.37
+  SPY   XLP     XLP    23.0     1.37
+ STWD  TSLA    STWD    17.0     1.37
+ STWD   VIG     VIG    22.0     1.38
+ STWD   VNQ    STWD    18.0     1.38
+ STWD  VRIG    VRIG    25.0     1.38
+ STWD  VCSH    VCSH    26.0     1.38
+ STWD   VNQ    STWD    19.0     1.38
+ STWD  XDTE    STWD    20.0     1.38
+ STWD   XLP    STWD    21.0     1.39
+ TSLA   VIG     VIG    23.0     1.39
+ TSLA   VNQ     VNQ    21.0     1.39
+ TSLA  VRIG    VRIG    26.0     1.39
+ TSLA  VCSH    VCSH    27.0     1.39
+ TSLA   VNQ     VNQ    21.0     1.39
+ TSLA  XDTE    XDTE    12.0     1.40
+ TSLA   XLP     XLP    24.0     1.40
+  VIG   VNQ     VIG    24.0     1.40
+  VIG  VRIG    VRIG    27.0     1.40
+  VIG  VCSH    VCSH    28.0     1.40
+  VIG   VNQ     VIG    25.0     1.41
+  VIG  XDTE     VIG    26.0     1.41
+  VIG   XLP     VIG    27.0     1.41
+  VNQ  VRIG    VRIG    28.0     1.41
+  VNQ  VCSH    VCSH    29.0     1.41
+  VNQ   VNQ             0.0     1.41
+  VNQ  XDTE     VNQ    22.5     1.42
+  VNQ   XLP     XLP    25.0     1.42
+ VRIG  VCSH    VRIG    29.0     1.42
+ VRIG   VNQ    VRIG    30.0     1.42
+ VRIG  XDTE    VRIG    31.0     1.42
+ VRIG   XLP    VRIG    32.0     1.42
+ VCSH   VNQ    VCSH    30.0     1.43
+ VCSH  XDTE    VCSH    31.0     1.43
+ VCSH   XLP    VCSH    32.0     1.43
+  VNQ  XDTE     VNQ    22.5     1.43
+  VNQ   XLP     XLP    26.0     1.43
+ XDTE   XLP     XLP    27.0     1.44
+
+Scores:
+   GBIL 3977.34
+   FLOT 3288.71
+    SHY 3121.51
+   FLRN 2969.68
+   JPST 2724.28
+   JAAA 2681.61
+   NEAR 2120.80
+   VRIG 1826.89
+   SCHD 1807.87
+   VCSH 1774.25
+   JEPI 1302.19
+   MINT 1284.26
+    XLP 1125.99
+    VIG 1091.44
+   SHYG  876.34
+    GSY  870.30
+   MSFT  797.41
+   STWD  706.97
+    VNQ  695.68
+    VNQ  695.68
+   FTLS  685.59
+    SPY  617.26
+    GLD  587.78
+   FLTR  502.25
+   FTSL  346.88
+    IAK  345.84
+   IBIT  305.32
+   GOOG  303.76
+   AMZN  282.43
+     MO  223.68
+    QQQ  195.44
+    IWM  188.78
+    ITA  179.14
+   XDTE  166.09
+   PAXS  163.45
+    IYW  129.68
+   NVDA   32.99
+   QTUM    3.68
+   PLTR    0.53
+   IONQ    0.12
+   TSLA    0.11
+
+Win counts:
+   GBIL   40.00
+   FLOT   38.00
+   FLRN   37.00
+    SHY   37.00
+   JAAA   36.00
+   JPST   36.00
+   SCHD   32.00
+   VCSH   32.00
+   VRIG   32.00
+   NEAR   30.00
+   JEPI   29.00
+   MINT   27.00
+    VIG   27.00
+    XLP   27.00
+   SHYG   25.00
+    GSY   23.00
+    VNQ   22.50
+    VNQ   22.50
+   FTLS   22.00
+    GLD   21.00
+    SPY   21.00
+   STWD   21.00
+   MSFT   20.00
+   FTSL   17.00
+   FLTR   16.00
+    IAK   16.00
+    ITA   12.00
+   XDTE   12.00
+    IWM   11.00
+     MO   11.00
+   PAXS   11.00
+    QQQ   11.00
+    IYW   10.00
+   AMZN    8.00
+   GOOG    8.00
+   IBIT    8.00
+   NVDA    4.00
+   PLTR    3.00
+   QTUM    3.00
+   IONQ    1.00
+   TSLA    0.00

@@ -1,0 +1,53 @@
+﻿You are the top financial analyst with access to reputable forward-looking investment data, analysis, and other reputable investmet experts opinions.
+
+Compare two equities with symbols SYMBOL1 and SYMBOL2 and determine which one is expected to deliver OBJECTIVE.
+
+Assume the investment position of the selected equity will be held for approximately three months, but could be longer, up to a year.
+
+Use only the current and available forward-looking information. Do not use historical performance for making the determination.
+
+Here is list of sources of predictive data to consider. Use the appropriate ones for the investment type:
+
+Market and Economic Environment
+
+- Momentum and market trends
+- Macroeconomic indicators and central bank policy
+- Current news, geopolitical developments, and policy changes
+
+Company-Specific Information
+
+- Corporate earnings and guidance
+- Forward valuation metrics
+- Consensus analyst forecasts
+- Competitive analysis
+- Technological developments
+- Regulatory changes
+- ESG factors
+- Management quality
+
+Sentiment and Positioning
+
+- Market sentiment and investor positioning
+- Alternative sentiment and activity data
+- Expert predictions and commentary
+- Professional newsletters and commentary
+
+Research and Analysis
+
+- Institutional and sell-side research
+- Recent posts or analyses from respected investment sources (e.g., X posts)
+
+Risk and Practical Considerations
+
+- Risk management metrics (beta, standard deviation, VaR, etc.)
+- Liquidity and marketability
+- Fees and expenses
+- Tax implications
+
+Historical Context
+
+- Historical performance
+- Correlation with other assets
+
+
+The response will be one of the provided equity symbols with no other text. The returned symbol represents the better investment option given the objectives.";
